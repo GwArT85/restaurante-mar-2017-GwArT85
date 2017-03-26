@@ -74,4 +74,22 @@ p {
   background-size: cover;
   background-position: center;
   height: 330px;
+  margin-top: 20%;
+}
+.fresno {
+  background-color: #000;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+.jumbotron .fresno {
+  max-width: 52%;
+}
+.fresno h1 {
+  color: #f8512f;
+}
+.white-text {
+  color: #fff;
+}
+.center-text {
+  text-align: center;
 }
