@@ -9,7 +9,105 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+	<!--Navbar begins here -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">
+					<img src="img/name-01.png" alt="restaurante logo" class="img-responsive">
+				</a>
+	    </div>
 
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#" class="active">Home</a></li>
+					<li><a href="#">Our Story</a></li>
+					<li><a href="#">Review</a></li>
+					<li><a href="#">Menu</a></li>
+					<li><a href="#">Contact Us</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<!--Navbar ends here -->
+	<!--Carosel begins here-->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <div class="item active" id="wood-background">
+	      <img src="img/logo-01.png" alt="Carousel Logo" class="img-responsive center-block" id="main-logo">
+	    </div>
+	    <div class="item" id="seating-background">
+	      <div class="carousel-caption">
+					<h3>Eat local.</h3>
+			    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae officia tempora tempore laborum voluptates?</p>
+					<button type="button" class="btn btn-warning btn-lg">Learn More</button>
+	      </div>
+	    </div>
+			<div class="item" id="farm-background">
+			  <div class="carousel-caption">
+			    <h3>...</h3>
+			    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa asperiores animi officia laboriosam, quisquam!</p>
+					<button type="button" class="btn btn-warning btn-lg">Browse Gallery</button>
+			  </div>
+			</div>
+
+	    ...
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+	<!--carousel ends-->
+	<div class="container">
+		<div class="row raleway-text">
+			<div class="col-sm-6"><!--our story headings-->
+				<h1 class="text-capitalize lobster-text">our story</h1>
+				<h3><b>One man. One dream.</b></h3>
+			</div>
+			<div class="col-sm-6"><!--our story paragraphs-->
+				<div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores totam accusamus velit veritatis non, id necessitatibus, ratione voluptatum consequuntur expedita commodi quidem culpa aliquam molestias deserunt. Quos officiis, doloremque eligendi.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quia cumque, reiciendis illum iure enim aperiam doloribus maxime impedit quasi omnis, velit, natus doloremque repellendus obcaecati expedita nisi fuga explicabo.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta fugiat quaerat eaque, porro consectetur tempore, doloribus ex pariatur quod soluta maxime ut provident nam eveniet laudantium fuga, rem aliquam autem.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur iste quia magnam, totam eos rerum amet sit harum, ad tempora ut earum, natus perspiciatis quos fugiat. Sequi eum totam explicabo.</p>
+				</div>
+				<div id="about-big">
+					<h1>1989</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="jumbotron">
+	  <div class="container">
+	    ...
+	  </div>
+	</div>
 	<!-- javascript	 -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>

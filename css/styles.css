@@ -1,0 +1,77 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway:300,400,700');
+/*=======================Universals===========================*/
+.lobster-text {
+  font-family: 'Lobster', cursive;
+}
+.raleway-text {
+  font-family: 'Raleway', sans-serif;;
+}
+/*========================HEADER===============================*/
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+/*======================CAROUSEL===============================*/
+.item {
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+}
+.item .btn-warning {
+  background-color: #f8512f;
+  border-color: #f8512f
+}
+#wood-background {
+  background-image: url('../img/wood-2.jpg');
+}
+
+#main-logo {
+  width: 300px;
+  transform: translate(0, 50%);
+}
+
+#seating-background {
+  background-image: url('../img/restaurant-2.jpg');
+}
+#farm-background {
+  background-image: url('../img/farm-2.jpg');
+}
+
+/*===========================================*/
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: #f8512f;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+ /*OUR STORY SECTION*/
+h1 {
+   color: #f8512f;
+ }
+p {
+  font-size: 12px;
+}
+
+#about-big h1 {
+  z-index: -1;
+  font-family: serif;
+  font-size: 138px;
+  color: #BABABA;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  bottom: 25%;
+  right: 52%;
+  position: absolute;
+}
+/*JUMBOTRON SECTION*/
+.jumbotron {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 330px;
+}
