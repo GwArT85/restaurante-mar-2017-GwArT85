@@ -69,7 +69,7 @@ p {
   position: absolute;
 }
 /*JUMBOTRON SECTION*/
-.jumbotron {
+.fruits {
   background-image: url('../img/food_review.jpg');
   background-size: cover;
   background-position: center;
@@ -92,4 +92,15 @@ p {
 }
 .center-text {
   text-align: center;
+}
+/*JUMBOTRON SECTION 2*/
+.linen {
+  background-image: url('../img/black_linen.png');
+  height: 782px;
+}
+.linen .h1, .linen h1 {
+  color: #fff;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 540%;
 }
