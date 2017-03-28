@@ -104,3 +104,10 @@ p {
   font-family: 'Lobster', cursive;
   font-size: 540%;
 }
+/*Menu Section Begins*/
+.menu-item {
+  background-color: #fff;
+}
+.menu-item>h3 {
+  
+}
